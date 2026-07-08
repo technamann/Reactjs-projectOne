@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.app {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.app-title {
+  font-size: 32px;
+  margin-bottom: 32px;
+}
+
+.results-grid {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.party-card {
+  flex: 1 1 280px;
+  max-width: 320px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.party-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.party-name {
+  font-size: 24px;
+  margin: 16px 0 4px;
+}
+
+.party-count {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0 0 16px;
+}
+
+.vote-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background: #2f6f76;
+  color: #fff;
+  cursor: pointer;
+}
+
+.vote-btn:hover {
+  background: #24565b;
+}
+
+.total-panel {
+  margin: 48px auto 0;
+  max-width: 400px;
+  background: #333;
+  color: #fff;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.total-count {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 8px 0 0;
+}
